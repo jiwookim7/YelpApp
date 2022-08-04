@@ -1,0 +1,194 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "YelpApp/1.0.0": {
+        "dependencies": {
+          "DotNetProjects.Extended.Wpf.Toolkit": "5.0.103",
+          "DotNetProjects.WpfToolkit.DataVisualization": "6.1.94",
+          "Extended.Wpf.Toolkit": "4.3.0",
+          "Npgsql": "6.0.4",
+          "System.Windows.Controls.DataVisualization.Toolkit": "4.0.0",
+          "WPFToolkit": "3.5.50211.1"
+        },
+        "runtime": {
+          "YelpApp.dll": {}
+        }
+      },
+      "DotNetProjects.Extended.Wpf.Toolkit/5.0.103": {
+        "runtime": {
+          "lib/net6.0-windows7.0/DotNetProjects.Wpf.Extended.Toolkit.dll": {
+            "assemblyVersion": "5.0.103.0",
+            "fileVersion": "5.0.103.0"
+          }
+        }
+      },
+      "DotNetProjects.WpfToolkit.DataVisualization/6.1.94": {
+        "runtime": {
+          "lib/net6.0-windows7.0/DotNetProjects.DataVisualization.Toolkit.dll": {
+            "assemblyVersion": "6.1.94.0",
+            "fileVersion": "6.1.94.0"
+          }
+        }
+      },
+      "Extended.Wpf.Toolkit/4.3.0": {
+        "runtime": {
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.Aero.dll": {
+            "assemblyVersion": "4.3.0.0",
+            "fileVersion": "4.3.0.0"
+          },
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.Metro.dll": {
+            "assemblyVersion": "4.3.0.0",
+            "fileVersion": "4.3.0.0"
+          },
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.VS2010.dll": {
+            "assemblyVersion": "4.3.0.0",
+            "fileVersion": "4.3.0.0"
+          },
+          "lib/net40/Xceed.Wpf.AvalonDock.dll": {
+            "assemblyVersion": "4.3.0.0",
+            "fileVersion": "4.3.0.0"
+          },
+          "lib/net40/Xceed.Wpf.Toolkit.dll": {
+            "assemblyVersion": "4.3.0.0",
+            "fileVersion": "4.3.0.0"
+          }
+        },
+        "resources": {
+          "lib/net40/cs-CZ/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "cs-CZ"
+          },
+          "lib/net40/de/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net40/es/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net40/fr/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net40/hu/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "hu"
+          },
+          "lib/net40/it/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net40/ja-JP/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "ja-JP"
+          },
+          "lib/net40/pt-BR/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net40/ro/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "ro"
+          },
+          "lib/net40/ru/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net40/sv/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "sv"
+          },
+          "lib/net40/zh-Hans/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "zh-Hans"
+          }
+        }
+      },
+      "Npgsql/6.0.4": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Npgsql.dll": {
+            "assemblyVersion": "6.0.4.0",
+            "fileVersion": "6.0.4.0"
+          }
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
+      "System.Windows.Controls.DataVisualization.Toolkit/4.0.0": {
+        "runtime": {
+          "lib/net40-Client/System.Windows.Controls.DataVisualization.Toolkit.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "WPFToolkit/3.5.50211.1": {
+        "runtime": {
+          "lib/System.Windows.Controls.Input.Toolkit.dll": {
+            "assemblyVersion": "3.5.40128.1",
+            "fileVersion": "3.5.50211.1"
+          },
+          "lib/System.Windows.Controls.Layout.Toolkit.dll": {
+            "assemblyVersion": "3.5.40128.1",
+            "fileVersion": "3.5.50211.1"
+          },
+          "lib/WPFToolkit.dll": {
+            "assemblyVersion": "3.5.40128.1",
+            "fileVersion": "3.5.50211.1"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "YelpApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DotNetProjects.Extended.Wpf.Toolkit/5.0.103": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mGKdi31cgyhE9M7MfKRPunwrLGqlC2I+gdH+H9QgQvYj8GM2oUaVdmIldtOC+9GU+EkibOW8LeffYwUe6roIWQ==",
+      "path": "dotnetprojects.extended.wpf.toolkit/5.0.103",
+      "hashPath": "dotnetprojects.extended.wpf.toolkit.5.0.103.nupkg.sha512"
+    },
+    "DotNetProjects.WpfToolkit.DataVisualization/6.1.94": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5xmRUH+/F3zRxcI8b93W9OUvOUKXpcHShj7jGJdpBAgQTNPEeMLISA/wsO5egSG74Msx+01xwaYjDFTDTUawhQ==",
+      "path": "dotnetprojects.wpftoolkit.datavisualization/6.1.94",
+      "hashPath": "dotnetprojects.wpftoolkit.datavisualization.6.1.94.nupkg.sha512"
+    },
+    "Extended.Wpf.Toolkit/4.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-leG4va9wdAk0R92UoycOwacWGPvgdWpNkfezAojkfjg+zxJlvRXUS4hR/urPVzX2dRZh8c7UxmdBIOW7O6N+OA==",
+      "path": "extended.wpf.toolkit/4.3.0",
+      "hashPath": "extended.wpf.toolkit.4.3.0.nupkg.sha512"
+    },
+    "Npgsql/6.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-SJMlOmFHr32oOzVXeHmarGaBKkhi0wHVN/rzuu2tUSJ4Qx2AkHCpr9R/DhLWwDiklqgzFU++9wkFyGJxbx/zzg==",
+      "path": "npgsql/6.0.4",
+      "hashPath": "npgsql.6.0.4.nupkg.sha512"
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    },
+    "System.Windows.Controls.DataVisualization.Toolkit/4.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UqBiEXh2YmYdJE5BpJC9c1I+AzcmFlzZ1h7fn5iU2lhOLn3snSxqf46/2XHpoJetJBN4HAavqG77wzaBi5jxfQ==",
+      "path": "system.windows.controls.datavisualization.toolkit/4.0.0",
+      "hashPath": "system.windows.controls.datavisualization.toolkit.4.0.0.nupkg.sha512"
+    },
+    "WPFToolkit/3.5.50211.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GBUDJtyv6WH6KKOQdeCpUGN1B1v3IpediEAmKQN9mu+oYhZvw21U6adfwCA087Z9bDMJwHPj18vZUXdTFfuqYA==",
+      "path": "wpftoolkit/3.5.50211.1",
+      "hashPath": "wpftoolkit.3.5.50211.1.nupkg.sha512"
+    }
+  }
+}

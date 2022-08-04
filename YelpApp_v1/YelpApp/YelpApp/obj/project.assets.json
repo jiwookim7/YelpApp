@@ -1,0 +1,397 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "DotNetProjects.Extended.Wpf.Toolkit/5.0.103": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows7.0/DotNetProjects.Wpf.Extended.Toolkit.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/DotNetProjects.Wpf.Extended.Toolkit.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "DotNetProjects.WpfToolkit.DataVisualization/6.1.94": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows7.0/DotNetProjects.DataVisualization.Toolkit.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/DotNetProjects.DataVisualization.Toolkit.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "Extended.Wpf.Toolkit/4.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.Aero.dll": {},
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.Metro.dll": {},
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.VS2010.dll": {},
+          "lib/net40/Xceed.Wpf.AvalonDock.dll": {},
+          "lib/net40/Xceed.Wpf.Toolkit.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.Aero.dll": {},
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.Metro.dll": {},
+          "lib/net40/Xceed.Wpf.AvalonDock.Themes.VS2010.dll": {},
+          "lib/net40/Xceed.Wpf.AvalonDock.dll": {},
+          "lib/net40/Xceed.Wpf.Toolkit.dll": {}
+        },
+        "resource": {
+          "lib/net40/cs-CZ/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "cs-CZ"
+          },
+          "lib/net40/de/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net40/es/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net40/fr/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net40/hu/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "hu"
+          },
+          "lib/net40/it/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net40/ja-JP/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "ja-JP"
+          },
+          "lib/net40/pt-BR/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net40/ro/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "ro"
+          },
+          "lib/net40/ru/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net40/sv/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "sv"
+          },
+          "lib/net40/zh-Hans/Xceed.Wpf.AvalonDock.resources.dll": {
+            "locale": "zh-Hans"
+          }
+        }
+      },
+      "Npgsql/6.0.4": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Npgsql.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Npgsql.dll": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "System.Windows.Controls.DataVisualization.Toolkit/4.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net40-Client/System.Windows.Controls.DataVisualization.Toolkit.dll": {}
+        },
+        "runtime": {
+          "lib/net40-Client/System.Windows.Controls.DataVisualization.Toolkit.dll": {}
+        }
+      },
+      "WPFToolkit/3.5.50211.1": {
+        "type": "package",
+        "compile": {
+          "lib/System.Windows.Controls.Input.Toolkit.dll": {},
+          "lib/System.Windows.Controls.Layout.Toolkit.dll": {},
+          "lib/WPFToolkit.dll": {}
+        },
+        "runtime": {
+          "lib/System.Windows.Controls.Input.Toolkit.dll": {},
+          "lib/System.Windows.Controls.Layout.Toolkit.dll": {},
+          "lib/WPFToolkit.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DotNetProjects.Extended.Wpf.Toolkit/5.0.103": {
+      "sha512": "mGKdi31cgyhE9M7MfKRPunwrLGqlC2I+gdH+H9QgQvYj8GM2oUaVdmIldtOC+9GU+EkibOW8LeffYwUe6roIWQ==",
+      "type": "package",
+      "path": "dotnetprojects.extended.wpf.toolkit/5.0.103",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dotnetprojects.extended.wpf.toolkit.5.0.103.nupkg.sha512",
+        "dotnetprojects.extended.wpf.toolkit.nuspec",
+        "lib/net40/DotNetProjects.Wpf.Extended.Toolkit.dll",
+        "lib/net6.0-windows7.0/DotNetProjects.Wpf.Extended.Toolkit.dll",
+        "lib/netcoreapp3.0/DotNetProjects.Wpf.Extended.Toolkit.dll"
+      ]
+    },
+    "DotNetProjects.WpfToolkit.DataVisualization/6.1.94": {
+      "sha512": "5xmRUH+/F3zRxcI8b93W9OUvOUKXpcHShj7jGJdpBAgQTNPEeMLISA/wsO5egSG74Msx+01xwaYjDFTDTUawhQ==",
+      "type": "package",
+      "path": "dotnetprojects.wpftoolkit.datavisualization/6.1.94",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dotnetprojects.wpftoolkit.datavisualization.6.1.94.nupkg.sha512",
+        "dotnetprojects.wpftoolkit.datavisualization.nuspec",
+        "lib/net40/DotNetProjects.DataVisualization.Toolkit.dll",
+        "lib/net5.0-windows7.0/DotNetProjects.DataVisualization.Toolkit.dll",
+        "lib/net6.0-windows7.0/DotNetProjects.DataVisualization.Toolkit.dll"
+      ]
+    },
+    "Extended.Wpf.Toolkit/4.3.0": {
+      "sha512": "leG4va9wdAk0R92UoycOwacWGPvgdWpNkfezAojkfjg+zxJlvRXUS4hR/urPVzX2dRZh8c7UxmdBIOW7O6N+OA==",
+      "type": "package",
+      "path": "extended.wpf.toolkit/4.3.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "Xceed_Logo_Retina-400x400.png",
+        "extended.wpf.toolkit.4.3.0.nupkg.sha512",
+        "extended.wpf.toolkit.nuspec",
+        "lib/net40/Xceed.Wpf.AvalonDock.Themes.Aero.dll",
+        "lib/net40/Xceed.Wpf.AvalonDock.Themes.Metro.dll",
+        "lib/net40/Xceed.Wpf.AvalonDock.Themes.VS2010.dll",
+        "lib/net40/Xceed.Wpf.AvalonDock.dll",
+        "lib/net40/Xceed.Wpf.Toolkit.dll",
+        "lib/net40/cs-CZ/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/de/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/es/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/fr/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/hu/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/it/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/ja-JP/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/pt-BR/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/ro/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/ru/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/sv/Xceed.Wpf.AvalonDock.resources.dll",
+        "lib/net40/zh-Hans/Xceed.Wpf.AvalonDock.resources.dll",
+        "tools/install.ps1"
+      ]
+    },
+    "Npgsql/6.0.4": {
+      "sha512": "SJMlOmFHr32oOzVXeHmarGaBKkhi0wHVN/rzuu2tUSJ4Qx2AkHCpr9R/DhLWwDiklqgzFU++9wkFyGJxbx/zzg==",
+      "type": "package",
+      "path": "npgsql/6.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net5.0/Npgsql.dll",
+        "lib/net5.0/Npgsql.xml",
+        "lib/net6.0/Npgsql.dll",
+        "lib/net6.0/Npgsql.xml",
+        "lib/netcoreapp3.1/Npgsql.dll",
+        "lib/netcoreapp3.1/Npgsql.xml",
+        "lib/netstandard2.0/Npgsql.dll",
+        "lib/netstandard2.0/Npgsql.xml",
+        "lib/netstandard2.1/Npgsql.dll",
+        "lib/netstandard2.1/Npgsql.xml",
+        "npgsql.6.0.4.nupkg.sha512",
+        "npgsql.nuspec",
+        "postgresql.png"
+      ]
+    },
+    "System.Runtime.CompilerServices.Unsafe/6.0.0": {
+      "sha512": "/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
+      "type": "package",
+      "path": "system.runtime.compilerservices.unsafe/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/net461/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/net6.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/net6.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netcoreapp3.1/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Windows.Controls.DataVisualization.Toolkit/4.0.0": {
+      "sha512": "UqBiEXh2YmYdJE5BpJC9c1I+AzcmFlzZ1h7fn5iU2lhOLn3snSxqf46/2XHpoJetJBN4HAavqG77wzaBi5jxfQ==",
+      "type": "package",
+      "path": "system.windows.controls.datavisualization.toolkit/4.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40-Client/System.Windows.Controls.DataVisualization.Toolkit.XML",
+        "lib/net40-Client/System.Windows.Controls.DataVisualization.Toolkit.dll",
+        "system.windows.controls.datavisualization.toolkit.4.0.0.nupkg.sha512",
+        "system.windows.controls.datavisualization.toolkit.nuspec"
+      ]
+    },
+    "WPFToolkit/3.5.50211.1": {
+      "sha512": "GBUDJtyv6WH6KKOQdeCpUGN1B1v3IpediEAmKQN9mu+oYhZvw21U6adfwCA087Z9bDMJwHPj18vZUXdTFfuqYA==",
+      "type": "package",
+      "path": "wpftoolkit/3.5.50211.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/System.Windows.Controls.Input.Toolkit.dll",
+        "lib/System.Windows.Controls.Layout.Toolkit.dll",
+        "lib/WPFToolkit.dll",
+        "wpftoolkit.3.5.50211.1.nupkg.sha512",
+        "wpftoolkit.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "DotNetProjects.Extended.Wpf.Toolkit >= 5.0.103",
+      "DotNetProjects.WpfToolkit.DataVisualization >= 6.1.94",
+      "Extended.Wpf.Toolkit >= 4.3.0",
+      "Npgsql >= 6.0.4",
+      "System.Windows.Controls.DataVisualization.Toolkit >= 4.0.0",
+      "WPFToolkit >= 3.5.50211.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\yjk93\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\yjk93\\OneDrive\\문서\\termproject-cs-go\\YelpApp_v1\\YelpApp\\YelpApp\\YelpApp.csproj",
+      "projectName": "YelpApp",
+      "projectPath": "C:\\Users\\yjk93\\OneDrive\\문서\\termproject-cs-go\\YelpApp_v1\\YelpApp\\YelpApp\\YelpApp.csproj",
+      "packagesPath": "C:\\Users\\yjk93\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\yjk93\\OneDrive\\문서\\termproject-cs-go\\YelpApp_v1\\YelpApp\\YelpApp\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\yjk93\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "DotNetProjects.Extended.Wpf.Toolkit": {
+            "target": "Package",
+            "version": "[5.0.103, )"
+          },
+          "DotNetProjects.WpfToolkit.DataVisualization": {
+            "target": "Package",
+            "version": "[6.1.94, )"
+          },
+          "Extended.Wpf.Toolkit": {
+            "target": "Package",
+            "version": "[4.3.0, )"
+          },
+          "Npgsql": {
+            "target": "Package",
+            "version": "[6.0.4, )"
+          },
+          "System.Windows.Controls.DataVisualization.Toolkit": {
+            "target": "Package",
+            "version": "[4.0.0, )"
+          },
+          "WPFToolkit": {
+            "target": "Package",
+            "version": "[3.5.50211.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Extended.Wpf.Toolkit 4.3.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Extended.Wpf.Toolkit",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Windows.Controls.DataVisualization.Toolkit 4.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "System.Windows.Controls.DataVisualization.Toolkit",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'WPFToolkit 3.5.50211.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "WPFToolkit",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
+}
